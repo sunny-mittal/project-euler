@@ -10,10 +10,10 @@ def largest_multiple_of_prime(n, limit)
   return 1 if n == 1 || n.composite?
   i = 1
   loop do
-    break if n ** i >= limit
+    break if n**i >= limit
     i += 1
   end
-  n ** (i - 1)
+  n**(i - 1)
 end
 
 class Fixnum
@@ -24,5 +24,3 @@ class Fixnum
     false
   end
 end
-
-

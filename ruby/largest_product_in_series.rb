@@ -1,5 +1,5 @@
 def product_in_series(str)
-  longest = 0 
+  longest = 0
   (0..str.length - 13).each do |i|
     slice = str[i..i + 12]
     prod = slice.each_char.inject(1) { |acc, c| acc * c.to_i }

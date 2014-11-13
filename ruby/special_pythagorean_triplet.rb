@@ -4,7 +4,7 @@ def pythagorean_triple(sum)
   (1..sum / 2).each do |i|
     (i..sum / 2).each do |j|
       (j..sum / 2).each do |k|
-        return [i, j, k] if i ** 2 + j ** 2 == k ** 2 && i + j + k == sum
+        return [i, j, k] if i**2 + j**2 == k**2 && i + j + k == sum
       end
     end
   end

@@ -17,4 +17,4 @@ def prime?(n)
   true
 end
 
-puts nth_prime(10001)
+puts nth_prime(10_001)

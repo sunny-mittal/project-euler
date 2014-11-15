@@ -32,5 +32,3 @@ number_string = "73167176531330624919225119674426574742355349194934
 numbers_array = number_string.gsub(/\n/, '').split(/[0]+/).collect do |elem|
   elem if elem.length >= 13
 end .compact!
-
-puts numbers_array.collect { |str| product_in_series str } .sort

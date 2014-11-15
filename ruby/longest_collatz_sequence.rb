@@ -20,6 +20,3 @@ def find_longest(limit)
   end
   [max, seed]
 end
-
-puts find_longest 1_000_000
-

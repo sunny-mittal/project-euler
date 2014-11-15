@@ -9,5 +9,3 @@ end
 def abs_difference(limit)
   (sum_of_squares(limit) - square_of_sums(limit)).abs
 end
-
-puts abs_difference(100)

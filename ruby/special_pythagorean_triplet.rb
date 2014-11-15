@@ -9,5 +9,3 @@ def pythagorean_triple(sum)
     end
   end
 end
-
-puts pythagorean_triple(1000).reduce(:*)

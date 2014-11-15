@@ -16,5 +16,3 @@ def prime?(n)
   end
   true
 end
-
-puts nth_prime(10_001)

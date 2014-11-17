@@ -10,5 +10,3 @@ def count_sundays
   end
   sunday_count
 end
-
-p count_sundays 

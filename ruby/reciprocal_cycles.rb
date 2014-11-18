@@ -1,5 +1,3 @@
-require 'prime'
-
 def cycle_length(n)
   remainders, remainder = [], 1
   loop do
@@ -13,8 +11,7 @@ end
 
 def find_longest_cycle(limit)
   max = 0
-  prime_candidates = (1...limit).select { |x| x.prime? }
-  prime_candidates.reverse_each do |n|
+  (limit - 1).downto(1) do |n|
     break if n < max
     max = [max, cycle_length(n)].max
   end

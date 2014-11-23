@@ -1,13 +1,4 @@
-class String
-  def pandigital?
-    sorted = split('').sort!
-    length = sorted.length
-    sorted.delete('0')
-    return false unless sorted == sorted.uniq &&
-      sorted.length == length
-    true
-  end
-end
+require_relative './lib/extended_string'
 
 def sum_of_products
   results = []

@@ -40,5 +40,3 @@ def combinations(sum)
   end
   count
 end
-
-puts combinations 200

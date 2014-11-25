@@ -5,7 +5,7 @@ class String
     sorted.delete('0')
     return false unless sorted == sorted.uniq &&
       sorted.length == length
-    true
+    true if sorted.last == length.to_s
   end
 
   def all_unique?

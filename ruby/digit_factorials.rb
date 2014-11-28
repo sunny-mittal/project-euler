@@ -1,4 +1,4 @@
-require_relative './lib/extended_fixnum'
+require_relative './lib/extended_numbers'
 
 class Fixnum
   def factorial_sum

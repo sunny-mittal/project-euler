@@ -1,4 +1,4 @@
-require_relative './lib/extended_fixnum'
+require_relative './lib/extended_numbers'
 
 def num_paths(grid_size)
   total_moves = grid_size * 2

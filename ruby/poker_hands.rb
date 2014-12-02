@@ -1,0 +1,12 @@
+def find_winner(p1, p2)
+  rf?
+  sf?
+  foak?
+  fh?
+  fl?
+  st?
+  toak?
+  tp?
+  p?
+  h?
+end

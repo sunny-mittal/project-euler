@@ -1,6 +1,8 @@
 class Fixnum
   def choose(k)
-    self.factorial / (k.factorial * (self - k).factorial)
+    (self - k + 1..self).reduce(:*) / k.factorial
+  rescue NoMethodError => e
+    1
   end
 
   def factorial

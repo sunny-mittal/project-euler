@@ -1,3 +1,5 @@
+/* Intuition: The sum of all multiples of 3 or 5 less than a given number is represented by an arithmetic sum of multiples of 3 and multiples of 5 with multiples of 15 removed (because they are multiples of both 3 and 5 and would be counted twice) */
+
 var sum = require('./helpers/sums').arithmetic_sum
 
 function mult_3_5(exclusive_upper_bound) {

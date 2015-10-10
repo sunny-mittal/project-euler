@@ -1,3 +1,5 @@
+/* Intuition: There is certainly a better way to do this, but because the Fibonacci sequence blows up so rapidly, it only requires computing 33 numbers of the sequence, selecting the evens, and summing them. */
+
 var fib = require('./helpers/fibonacci')
 
 function sum_even_fibs(max) {
